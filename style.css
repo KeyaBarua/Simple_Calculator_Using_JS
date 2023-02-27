@@ -45,18 +45,14 @@ button{
   background-color: white;
 }
 
-#zero{
-/*   background-color: grey; */
-  width: 190px;
-}
-
 #result{
   display: flex;
   justify-content: right;
   flex-wrap: wrap;
   position: relative;
   top: 130px;
-  right: 5px;
+  right: 10px;
+  left: -1px;
   width: 280px;
   word-wrap: break-word;
   font-size: 2rem;
@@ -80,4 +76,8 @@ button{
 
 #equal{
   background-color: #CF4DCE;
+}
+
+.button:hover{
+  background-color: #EEEEEE;
 }
